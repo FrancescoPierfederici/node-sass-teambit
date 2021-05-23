@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mycontainer {
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+nav{
+  padding-top:$spacing;  
+  
+}
+.logo-resize{
+    height: 150px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.flex-between{
+    @include list_between;
+}
+.flex-center{
+    @include list_horizontal;
+}
+header{
+    li{
+        padding:15px 15px;
+        list-style: none;
+        line-height:25px;
+        vertical-align: middle;
+    }
+    ul{
+       
+        
+        a{
+            text-decoration: none;
+            color:inherit;
+            line-height:15px;
+            vertical-align: middle; 
+            color: rgba(0, 0, 255, 0.781);
+        }
+        .g-logo-resize{
+            width:15px;
+            line-height:15px;
+            vertical-align: middle;
+        }
+        button{
+            border-radius: 7px;
+            border: 1px solid blue;
+            padding: 5px;
+            line-height:10px;
+            vertical-align: middle;
+            
+        }
+}
+
+
+}
+
+
+.width-half{
+    width: 50%;
+}
+.main-img-resize{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+.title{
+    padding-top: $spacing*5;
+}
+.herobg{
+    button{
+        background-color:#3E14E9;
+        color: white;
+        border-radius: 5px;
+    }
+
+    p{
+        font-size:11px;
+        display: inline-block;
+        
+    }
+
+}
+.herobg2{
+    background-color: $first_color;
+    height: 2000px;
+    h3, p{
+        @include list_padding;
+    }
+    .flex-center{
+        @include list_padding;
+    }
+    
+}
+.padd{
+    div{
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+}
+.imgresize{
+    width:400px;
+    height: 400px;
+   
+}
+.width-half2{
+    width:calc(100% / 2);
+}
+.imgresize2{
+    width:700px;
+    height: 400px;
+}
+.imgresize3{
+    width:400px;
+    height: 300px;
+    margin-top: 30px;
+    
+}
+.list{
+    h3,p,span{
+        padding:15px 15px;
+    }
+}
+.flex-end{
+    @include flex-end;
+}
+.herobg3{
+    height: 800px;
+    background-color:$first_color ;
+    margin-top:50px ;
+    button{
+        padding: 5px;
+        border-radius:5px ;
+        margin-bottom: 15px;
+    }
+}
+.panel{
+    width: 700px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.986);
+    margin-top: 40px;
+    padding:20px;
+
+    p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.resize-logo{
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align:middle;
+}
+.resize-logo2{
+    width: 60px;
+    height: 50px;
+    
+    
+}
+.listn{
+    list-style: none;
+    padding:3px 3px;
+}
+.fnt-sz-big6{
+    font-size: 14px;
+}
