@@ -30,6 +30,7 @@ nav{
     @include list_horizontal;
 }
 header{
+    color: $third_color;
     li{
         padding:15px 15px;
         list-style: none;
@@ -53,7 +54,7 @@ header{
         }
         button{
             border-radius: 7px;
-            border: 1px solid blue;
+            border: 1px solid $third_color;
             padding: 5px;
             line-height:10px;
             vertical-align: middle;
@@ -77,6 +78,7 @@ header{
     padding-top: $spacing*5;
 }
 .herobg{
+    color: $third_color;
     button{
         background-color:#3E14E9;
         color: white;
@@ -91,6 +93,7 @@ header{
 
 }
 .herobg2{
+    color: white;
     background-color: $first_color;
     height: 2000px;
     h3, p{
@@ -126,6 +129,7 @@ header{
     
 }
 .list{
+    color: $third_color;
     h3,p,span{
         padding:15px 15px;
     }
@@ -137,10 +141,12 @@ header{
     height: 800px;
     background-color:$first_color ;
     margin-top:50px ;
+    
     button{
         padding: 5px;
         border-radius:5px ;
         margin-bottom: 15px;
+        color: $third_color;
     }
 }
 .panel{
@@ -151,7 +157,7 @@ header{
     background-color: rgba(255, 255, 255, 0.986);
     margin-top: 40px;
     padding:20px;
-
+    color: $third_color;
     p{
         padding-top: 10px;
         padding-bottom: 10px;
@@ -175,4 +181,7 @@ header{
 }
 .fnt-sz-big6{
     font-size: 14px;
+}
+footer{
+    color: blue;
 }
