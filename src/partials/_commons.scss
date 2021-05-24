@@ -95,7 +95,7 @@ header{
 .herobg2{
     color: white;
     background-color: $first_color;
-    height: 2000px;
+    // height: 2000px;
     h3, p{
         @include list_padding;
     }
@@ -138,9 +138,10 @@ header{
     @include flex-end;
 }
 .herobg3{
-    height: 800px;
+    // height: 800px;
     background-color:$first_color ;
     margin-top:50px ;
+    padding-bottom: 30px;
     
     button{
         padding: 5px;
@@ -151,7 +152,8 @@ header{
 }
 .panel{
     width: 700px;
-    height: 400px;
+    // height: 400px;
+    
     border: 1px solid black;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.986);

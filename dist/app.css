@@ -98,7 +98,6 @@ header ul button {
 .herobg2 {
   color: white;
   background-color: #0414B3;
-  height: 2000px;
 }
 .herobg2 h3, .herobg2 p {
   padding-top: 30px;
@@ -147,9 +146,9 @@ header ul button {
 }
 
 .herobg3 {
-  height: 800px;
   background-color: #0414B3;
   margin-top: 50px;
+  padding-bottom: 30px;
 }
 .herobg3 button {
   padding: 5px;
@@ -160,7 +159,6 @@ header ul button {
 
 .panel {
   width: 700px;
-  height: 400px;
   border: 1px solid black;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.986);
